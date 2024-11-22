@@ -4,7 +4,7 @@ const PORT = 3001; // You can choose any port
 
 // Define a route
 app.get('/', (req, res) => {
-  res.send('<h1>Welcome to App2!</h1><p>This is running on Express.js.</p>');
+  res.send('<h1>Welcome to App2!</h1><p>This is running on Express.js. with semantic versioning</p>');
 });
 
 // Start the server
