@@ -11,3 +11,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`App2 is running at http://localhost:${PORT}`);
 });
+console.log('New Feature');
